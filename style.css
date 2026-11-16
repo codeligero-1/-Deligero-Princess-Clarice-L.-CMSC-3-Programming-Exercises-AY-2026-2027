@@ -90,3 +90,13 @@ button:hover {background-color: rgb(71, 121, 137); color: azure} /*button pseudo
 button:focus {outline: 2px solid rgb(94, 94, 102);}/*button pseudo-class 2*/
 
 a[href^="https"] {font-weight:bold; color: rgb(105, 105, 105); text-align:center;} /*attribute selector*/
+
+#light:active {
+    background: azure;
+    color: black;
+}
+
+#dark:active {
+    background: rgb(25, 16, 70);
+    color: azure;
+}
